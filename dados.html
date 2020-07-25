@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jogo dado</title>
+    <link rel="icon" type="image/png" href="img_dados/dado1.png" sizes="32x32" />
+    <link rel="stylesheet" type="text/css" href="_css/style.css">
+
+</head>
+
+<body id="fundo" onload="reiniciarJogo()">
+
+    <div class="header">
+        <h4 class="logo">Cadastro</h4>
+
+        <form name="formJogador" class="game">
+            <input type="radio" name="jogadores" value="jogador1"><label>Jogador 1</label>
+            <input id="jog2" type="radio" name="jogadores" value="jogador2"><label>Jogador 2</label>
+
+        </form>
+
+        <!-- method é como vai ligar com o que recebeu e o action aonde vai enviar atravez da url -->
+        <form name="form1" id="form1" method="post" action="Jogo_de_Dados.html">
+
+            <label>Nome:</label>
+            <input type="text" id="nick" name="F_nome" size="20" maxlength="30" placeholder="Digite seu nome" /><br><br>
+
+            <label>Nick:</label>
+            <input type="text" id="campo1" name="campo1" size="20" maxlength="20" value=""
+                placeholder="Digite seu nick" /><br><br>
+
+            <label>Idade:</label>
+            <input type="number" name="F_idade" id="idade" />
+
+            <button type="submit" id="form1-submit" onclick="save(), limpar()">Confirmar</button>
+
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="_js/bancoDados.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+html {
+    font-family             : sans-serif;
+    -ms-text-size-adjust    : 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url(../img_dados/2.gif);
+    font-family: "arial", sans-serif;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+}
+
+.header{
+    background-image: url(../_fundo/game.png);
+    background-repeat: no-repeat;
+    height: 520px;
+    width: 730px;
+    margin-left: 330px;
+    margin-top: 60px;
+}
+
+/* Controle dos pontos */
+
+#resultadoJogador1{
+    margin-top: 40px;
+    margin-right: -1000px;
+    margin-left: 170px;
+    width: 20%;
+    display: inline-block;
+    float: left;    
+}
+
+#resultadoJogador2{
+    margin-top: 40px;
+    margin-left: -1000px;
+    margin-right: 90px;
+    width: 20%;
+    display: inline-block;
+    float: right;    
+}
+
+/* Nome dos jogadores */
+
+#Jogador1{
+    margin-right: -1000px;
+    margin-left: 170px;
+    width: 10%;
+    display: inline-block;
+    float: left;
+    text-align: center
+}
+
+#Jogador2{
+    text-align: center;
+    margin-right: 190px;
+    width: 10%;
+    display: inline-block;
+    float: right;
+}
+
+/* Modifica o titulo (jogo de Dados) */
+
+.logo{
+    padding-top: 80px;
+    margin-left: 90px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+/* Controle dos pontos */
+
+.game{
+    padding: 20px;
+}
+
+/* Espaçamento geral */
+
+.menu{
+    margin-top: -20px;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+/* Imagem dos dados (as duas imagens) */
+
+#dadoone, #dadotwo{
+    margin-top: 45px;
+    margin-left: 160px;
+    width: 130px;
+}
+
+/* Botão de jogar */
+
+.button{
+    margin-left: 280px;
+}
+
+/* Reiniciar o jogo */
+
+.reiniciar{
+    margin-left: 230px;
+    margin-top: 30px;
+    width: 150px;
+}
+
+/* Cadastrar jogador */
+
+.cadastro{
+    margin-left: 490px;
+}

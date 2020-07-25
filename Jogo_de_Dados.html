@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jogo de Dado</title>
+    <link rel="icon" type="image/png" href="img_dados/dado2.png" sizes="32x32" />
+    <link rel="stylesheet" type="text/css" href="_css/jogo.css">
+
+</head>
+
+<body onload="isPodeJogar();resultadoJogo();">
+    <div class="header">
+        <h4 class="logo">Jogo de Dados</h4>
+
+        <form class="game">
+            <div id="resultadoJogador1"></div>
+            <div id="resultadoJogador2"></div>
+        </form>
+
+        <img src="img_dados/dado0.png" id="dadoone" alt="">
+        <img src="img_dados/dado0.png" id="dadotwo" alt="">
+
+        <!-- method é como vai ligar com o que recebeu e o action aonde vai enviar atravez da url -->
+        <form>
+            <div id="Jogador1"> </div>
+            <div id="Jogador2"> </div>
+        </form>
+
+        <form class="menu" method="post" action="#">
+            <input class="button" type="button" onclick="mudar1();mudar2();resultadoJogo();" value="Jogar">
+        </form>
+
+        <form class="menu" method="post" action="Jogo_de_Dados.html">
+            <input class="reiniciar" type="submit" value="Reiniciar Jogo">
+        </form>
+
+        <form method="post" action="dados.html">
+            <input class="cadastro" type="submit" value="Cadastrar Jogadores">
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="_js/dado.js"></script>
+    <script src="_js/bancoDados.js"></script>
+</body>
+
+</html>

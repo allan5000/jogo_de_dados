@@ -1,0 +1,80 @@
+html {
+    font-family             : sans-serif;
+    -ms-text-size-adjust    : 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;/* Muda tudo na pagina */
+    font-family: "arial", sans-serif;
+    background-image: url(../img_dados/Fundo1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+}
+
+.header{
+    background-image: url(../_fundo/login.png);
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 570px;
+    margin-left: 440px;
+    margin-top: 160px;
+}
+
+/* Modifica o titulo (Cadastro) */
+
+.logo{
+    padding: 40px;
+    margin-left: 15px;
+    margin-bottom: -40px;
+    font-size: 25px;
+}
+
+/* Altera a caixa dos jogadores */
+
+.game{
+    margin-left: 70px;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 20px
+}
+
+/* Edição todos itens da tela */
+
+#jog2{
+   margin-left: 30px; 
+}
+
+#form1{
+    margin-top: -20px;
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Altera a caixa do nome */
+
+#nick{
+    margin-bottom: 10px;
+    margin-left: 14px; 
+    width: 250px;
+    font-size: 15px
+}
+
+/* Altera a caixa do nick */
+
+#campo1{
+    margin-bottom: 10px;
+    margin-left: 25px; 
+    width: 250px;
+    font-size: 15px
+}
+
+/* Altera a caixa da idade */
+
+#idade{
+    width: 50px;
+    margin-left: 18px;
+    margin-right: 10px;
+    font-size: 15px
+}
